@@ -59,6 +59,20 @@ export default defineAppConfig({
           "Active CPU billing (I/O wait excluded). 2 GB RAM per vCPU. Memory billed for full wall-clock duration.",
       },
       {
+        id: "railway",
+        name: "Railway",
+        url: "https://docs.railway.com/sandboxes",
+        color: "#9558D4",
+        pricing: {
+          cpuPerHour: 0.00000001929012 * 3600,
+          ramPerGBPerHour: 0.00000001929012 * 1024 * 3600,
+          storagePerGBPerMonth: 0,
+          bandwidthPerGB: 0.05,
+        },
+        notes:
+          "Ephemeral Linux VMs billed per second for vCPU, memory, and egress. Idle sandboxes still consume resources.",
+      },
+      {
         id: "cloudflare-sandbox",
         name: "Cloudflare Sandbox",
         url: "https://developers.cloudflare.com/sandbox/platform/pricing/",
