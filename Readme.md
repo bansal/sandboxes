@@ -11,6 +11,7 @@ Compare cloud sandbox pricing across providers. Adjust CPU, memory, storage, and
 - **Cloudflare Sandbox** — Edge sandboxes built on Cloudflare Containers
 - **Upstash Box** — Active CPU billing with durable block storage
 - **Sprites** — Stateful Firecracker VMs with granular usage billing
+- **AWS Lambda MicroVM** — Graviton microVMs with per-second baseline compute and snapshot suspend/resume
 
 ## Adding a Sandbox
 

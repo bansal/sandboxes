@@ -130,6 +130,20 @@ export default defineAppConfig({
         notes:
           "Code Sandbox: hourly vCPU and GiB RAM for VM sandboxes. Code Interpreter also available at $0.03 per 60-minute session.",
       },
+      {
+        id: "aws-lambda-microvm",
+        name: "AWS Lambda MicroVM",
+        url: "https://aws.amazon.com/lambda/pricing/",
+        color: "#FF9900",
+        pricing: {
+          cpuPerHour: 0.0000276944 * 3600,
+          ramPerGBPerHour: 0.0000036667 * 3600,
+          storagePerGBPerMonth: 0.08,
+          bandwidthPerGB: 0,
+        },
+        notes:
+          "Graviton baseline compute billed per second while running. Default 2 GB / 1 vCPU (2:1 ratio); scales to 4× peak. Suspend preserves state without compute charges; snapshot read/write billed separately.",
+      },
     ],
   },
 });
