@@ -3,6 +3,12 @@ useSeoMeta({
   title: "Compare Sandbox Pricing",
   description:
     "Compare cloud sandbox pricing across E2B, Daytona, Deno, Modal, Vercel, Cloudflare, AWS Lambda MicroVM, Upstash Box, and Sprites.",
+  ogTitle: "Compare Sandbox Pricing",
+  ogDescription:
+    "Compare cloud sandbox pricing across providers. Adjust CPU, memory, storage, and bandwidth to find the best fit.",
+  ogImage: "/og.png",
+  twitterCard: "summary_large_image",
+  twitterImage: "/og.png",
 });
 
 const {
