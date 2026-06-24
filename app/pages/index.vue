@@ -345,8 +345,12 @@ function getFaviconUrl(url: string): string {
         <p>
           Prices shown are approximate and may vary. Billing models differ —
           some providers charge active CPU only, others bill wall-clock time.
-          Free tiers, included allotments, and platform fees are not included.
-          Always verify final pricing on the provider's official website.
+          Minimum and maximum resource limits may also differ by provider.
+          Additional charges may apply for requests, regional bandwidth, ingress
+          traffic, IP addresses, and similar resources. Some providers require
+          a paid plan before you can get started. Free tiers, included
+          allotments, and platform fees are not included. Always verify final
+          pricing on the provider's official website.
         </p>
         <p>
           This project is open source. Found incorrect pricing, want to add a
