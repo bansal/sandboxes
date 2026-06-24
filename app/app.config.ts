@@ -31,6 +31,20 @@ export default defineAppConfig({
           "Pay-as-you-go per second while running. First 5 GiB storage free. Stopped sandboxes bill storage only.",
       },
       {
+        id: "deno-sandbox",
+        name: "Deno Sandbox",
+        url: "https://deno.com/deploy/pricing",
+        color: "#70FFAF",
+        pricing: {
+          cpuPerHour: 0.05,
+          ramPerGBPerHour: 0.016,
+          storagePerGBPerMonth: 0.2,
+          bandwidthPerGB: 0.5,
+        },
+        notes:
+          "Firecracker microVMs on Deno Deploy. Usage draws from org-wide Deno Deploy quotas (Free: 15 CPU-h, 350 GB-h, 1 GiB storage, 20 GB egress/mo). Overage at listed rates. Default sandbox: 2 vCPU, 1.2 GiB RAM, 10 GiB disk.",
+      },
+      {
         id: "modal",
         name: "Modal Sandbox",
         url: "https://modal.com/products/sandboxes",

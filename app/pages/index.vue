@@ -2,7 +2,7 @@
 useSeoMeta({
   title: "Compare Sandbox Pricing",
   description:
-    "Compare cloud sandbox pricing across E2B, Daytona, Modal, Vercel, Cloudflare, AWS Lambda MicroVM, Upstash Box, and Sprites.",
+    "Compare cloud sandbox pricing across E2B, Daytona, Deno, Modal, Vercel, Cloudflare, AWS Lambda MicroVM, Upstash Box, and Sprites.",
 });
 
 const {
@@ -61,7 +61,7 @@ function getFaviconUrl(url: string): string {
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col bg-muted">
     <header
       class="sticky top-0 z-50 bg-default/80 backdrop-blur-lg border-b border-default"
     >
@@ -194,6 +194,7 @@ function getFaviconUrl(url: string): string {
                 :items="timeframeItems"
                 orientation="horizontal"
                 variant="card"
+                indicator="hidden"
                 size="sm"
               />
             </div>
@@ -320,11 +321,13 @@ function getFaviconUrl(url: string): string {
                 <UButton
                   :to="result.url"
                   target="_blank"
-                  variant="outline"
+                  variant="ghost"
                   color="neutral"
                   size="xs"
-                  block
                   trailing-icon="i-lucide-external-link"
+                  :ui="{
+                    trailingIcon: 'size-3',
+                  }"
                 >
                   View Pricing
                 </UButton>

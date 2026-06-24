@@ -6,6 +6,7 @@ Compare cloud sandbox pricing across providers. Adjust CPU, memory, storage, and
 
 - **E2B** — Firecracker microVMs with per-second wall-clock billing
 - **Daytona** — Pay-as-you-go sandboxes with persistent storage
+- **Deno Sandbox** — Firecracker microVMs on Deno Deploy with network policy controls
 - **Modal Sandbox** — Non-preemptible container sandboxes for AI workloads
 - **Vercel Sandbox** — Active CPU billing with provisioned memory
 - **Cloudflare Sandbox** — Edge sandboxes built on Cloudflare Containers
