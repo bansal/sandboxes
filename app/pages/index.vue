@@ -6,7 +6,11 @@ useSeoMeta({
   ogTitle: "Compare Sandbox Pricing",
   ogDescription:
     "Compare cloud sandbox pricing across providers. Adjust CPU, memory, storage, and bandwidth to find the best fit.",
+  ogSiteName: "Sandboxes",
   ogImage: "/og.png",
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogImageType: "image/png",
   twitterCard: "summary_large_image",
   twitterImage: "/og.png",
 });
