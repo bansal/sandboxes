@@ -99,6 +99,7 @@ function getFaviconUrl(url: string): string {
             color="neutral"
             variant="ghost"
             size="sm"
+            rel="nofollow noopener noreferrer"
           />
         </div>
       </div>
@@ -335,6 +336,7 @@ function getFaviconUrl(url: string): string {
                   color="neutral"
                   size="xs"
                   trailing-icon="i-lucide-external-link"
+                  rel="nofollow noopener noreferrer"
                   :ui="{
                     trailingIcon: 'size-3',
                   }"
@@ -357,10 +359,10 @@ function getFaviconUrl(url: string): string {
           some providers charge active CPU only, others bill wall-clock time.
           Minimum and maximum resource limits may also differ by provider.
           Additional charges may apply for requests, regional bandwidth, ingress
-          traffic, IP addresses, and similar resources. Some providers require
-          a paid plan before you can get started. Free tiers, included
-          allotments, and platform fees are not included. Always verify final
-          pricing on the provider's official website.
+          traffic, IP addresses, and similar resources. Some providers require a
+          paid plan before you can get started. Free tiers, included allotments,
+          and platform fees are not included. Always verify final pricing on the
+          provider's official website.
         </p>
         <p>
           This project is open source. Found incorrect pricing, want to add a
@@ -370,6 +372,7 @@ function getFaviconUrl(url: string): string {
             target="_blank"
             variant="link"
             size="xs"
+            rel="nofollow noopener noreferrer"
             class="align-baseline"
           >
             GitHub </UButton
